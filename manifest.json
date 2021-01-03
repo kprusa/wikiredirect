@@ -1,0 +1,11 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "description": "Redirect desktop Wikipedia to mobile version.",
+   "manifest_version": 2,
+   "name": "WikiRedirect",
+   "permissions": [ "*://en.wikipedia.org/*", "webRequest", "webRequestBlocking" ],
+   "version": "1.0.0"
+}
