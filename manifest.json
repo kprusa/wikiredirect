@@ -1,11 +1,22 @@
 {
-   "background": {
-      "persistent": true,
-      "scripts": [ "background.js" ]
-   },
-   "description": "Redirect desktop Wikipedia to mobile version.",
-   "manifest_version": 2,
-   "name": "WikiRedirect",
-   "permissions": [ "*://en.wikipedia.org/*", "webRequest", "webRequestBlocking" ],
-   "version": "1.0.0"
+  "manifest_version": 3,
+  "name": "WikiRedirect",
+  "version": "2.0.0",
+  "description": "Redirects desktop Wikipedia to mobile version.",
+  "declarative_net_request" : {
+    "rule_resources" : [
+      {
+      "id": "rules",
+      "enabled": true,
+      "path": "rules.json"
+      }
+    ]
+  },
+   "permissions": [
+     "declarativeNetRequest",
+     "declarativeNetRequestFeedback"
+   ],
+  "host_permissions": [
+    "*://*.wikipedia.org/"
+  ]
 }
