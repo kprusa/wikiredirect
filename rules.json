@@ -14,5 +14,21 @@
         "main_frame"
       ]
     }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://www.wikipedia.org/"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://www\\.wikipedia\\.org/",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
   }
 ]
