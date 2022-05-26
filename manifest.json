@@ -16,8 +16,7 @@
     ]
   },
    "permissions": [
-     "declarativeNetRequest",
-     "declarativeNetRequestFeedback"
+     "declarativeNetRequest"
    ],
   "host_permissions": [
     "*://*.wikipedia.org/"
