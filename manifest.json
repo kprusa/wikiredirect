@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "WikiRedirect",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Redirects desktop Wikipedia to mobile version.",
   "declarative_net_request" : {
     "rule_resources" : [
