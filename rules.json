@@ -5,11 +5,11 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "regexSubstitution": "https://en.m.wikipedia.org/"
+        "regexSubstitution": "https://\\1.m.wikipedia.org/"
       }
     },
     "condition": {
-      "regexFilter": "^https://en.wikipedia.org/",
+      "regexFilter": "^https://([a-z\\-]{2,20})\\.wikipedia\\.org/",
       "resourceTypes": [
         "main_frame"
       ]
