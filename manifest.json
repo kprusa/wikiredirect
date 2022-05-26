@@ -3,6 +3,9 @@
   "name": "WikiRedirect",
   "version": "2.1.0",
   "description": "Redirects desktop Wikipedia to mobile version.",
+  "icons": {
+    "128": "icon-128.png"
+  },
   "declarative_net_request" : {
     "rule_resources" : [
       {
